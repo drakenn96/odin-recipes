@@ -3,9 +3,24 @@ body {
     background-color:aliceblue
 }
 
-h1 {
+.title {
     font-family: Helvetica;
     background-color: #FF7F5080
+}
+
+.ingredients,
+.steps {
+    background-color: aquamarine;
+}
+
+.description {
+    background-color: #F0E68C80;
+    text-align: justify;
+}
+
+img {
+    width: 650px;
+    height: auto;
 }
 
 button {
