@@ -1,0 +1,29 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:aliceblue
+}
+
+.title {
+    font-family: Helvetica;
+    background-color: #FF7F5080
+}
+
+.ingredients,
+.steps {
+    background-color: aquamarine;
+}
+
+.description {
+    background-color: #F0E68C80;
+    text-align: justify;
+}
+
+img {
+    width: 650px;
+    height: auto;
+}
+
+button {
+    font-weight: bold;
+    background-color: bisque;
+}
