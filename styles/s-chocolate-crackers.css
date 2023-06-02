@@ -3,9 +3,19 @@ body {
     background-color:aliceblue
 }
 
-.title {
+.container {
+    padding: 0px;
+    margin: 30px;
+}
+
+
+h1 {
     font-family: Helvetica;
-    background-color: #FF7F5080
+    color: #1B191D;
+    background-color: #F8B6A7;
+    padding-left: 120px;
+    border-top: 2px solid #F97A5D;
+    border-bottom: 2px solid #F97A5D;
 }
 
 .ingredients,
@@ -19,8 +29,10 @@ body {
 }
 
 img {
-    width: 650px;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 button {
