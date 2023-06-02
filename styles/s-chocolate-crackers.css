@@ -6,10 +6,11 @@ body {
 .container {
     padding: 0px;
     margin: 30px;
+
 }
 
 
-h1 {
+.title {
     font-family: Helvetica;
     color: #1B191D;
     background-color: #F8B6A7;
@@ -18,24 +19,47 @@ h1 {
     border-bottom: 2px solid #F97A5D;
 }
 
-.ingredients,
-.steps {
+.banner {
     background-color: aquamarine;
+    padding: 2px 120px 2px;
+    border-top: 2px solid #19A978;
+    border-bottom: 2px solid #19A978;
 }
 
 .description {
-    background-color: #F0E68C80;
+    background-color: #F8F8E7;
     text-align: justify;
+    padding: 6px;
+    border: 2px dotted red;
 }
 
-img {
+.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-button {
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+}
+
+.test .container{
+    display: inline-block;
+}
+
+#ingredients {
+    vertical-align: top;
+}
+
+#steps {
+    width: 53%;
+}
+
+.button button {
+    display: inline-block;
     font-weight: bold;
     background-color: bisque;
 }
